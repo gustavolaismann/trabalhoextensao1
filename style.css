@@ -122,6 +122,7 @@ footer {
     cursor: pointer;
     font-weight: bold;
     transition: 0.2s;
+      padding: 2px 2px;
   }
   .btnFooter:hover{
     background-color: #00cc6b;
