@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #0f0f0f, #0d3328);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 60px;
+
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.header h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    background: #00ffc3;
+    margin: 10px auto 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+ 
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: 0.03s;
+}
+
+.card:hover{
+    background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.card p {
+    font-size: 0.95em;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.card i {
+    margin-bottom: 15px;
+    color: #00ffc3;
+}
+
+.cardHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+.cardHeader i {
+    font-size: 1.8em;
+    color: #00ffc3;
+}
+
+.cardHeader h3{
+    font-size: 1.2em;
+    margin: 0;
+}
+.mais-info {
+    display: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #ccc;
+  }
+  .btn {
+    background-color: #00ff88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  .btn:hover {
+    background-color: #00cc6b;
+  }
+  .btnFooter {
+    background-color: #00ff88;
+    border: none;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  .btnFooter:hover{
+    background-color: #00cc6b;
+  }
