@@ -51,6 +51,7 @@ body{
     width: 280px;
     text-align: center;
     transition: 0.3s;
+    min-height: 212px;
 
 }
 
