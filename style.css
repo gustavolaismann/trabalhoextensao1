@@ -183,3 +183,9 @@ footer {
 .feedback button:hover {
   background-color: #00cc66;
 }
+.mais-info-alunos {
+    display: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #ccc;
+  }
