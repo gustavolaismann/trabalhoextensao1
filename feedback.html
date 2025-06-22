@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Cyber Segurança</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="fundo-caveira"></div>
+    <div class="header">
+        <h1>Feedback</h1>
+    </div>
+
+    <nav class="menu-principal">
+        <a href="index.html">Início</a>
+        <a href="dicas.html">Dicas de Segurança</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <main class="container">
+        
+        <div class="feedback">
+            <h2>Deixe seu Feedback</h2>
+            <p style="text-align: center; margin-bottom: 25px; color: #ccc;">Sua opinião é importante para nós! Use o formulário abaixo para enviar seus comentários ou sugestões sobre este projeto acadêmico.</p>
+            
+            <form action="https://formspree.io/f/xkgbqgve" method="POST"> <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome...">
+
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="5" required placeholder="Sua mensagem..."></textarea>
+
+                <button type="submit">Enviar Feedback</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        Trabalho Academico - ADS 2025
+        <button class="btnFooter" onclick="mostrarMaisAlunos(this)">Info Alunos</button> 
+        <div class="mais-info-alunos">
+            <p>
+                Gustavo Laismann : 60009201 <br>
+                Vitor Hugo Fogaça : 60007808<br>
+                Kelvin Kinas : 60007550<br>
+                Vitor Augusto Barros : 60009468<br>
+                Guilherme Duquesne : 60005581
+            </p>
+          </div>                    
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

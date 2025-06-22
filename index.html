@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -7,62 +8,64 @@
     </head>
     <body>
         <div class="fundo-caveira"></div>
+        
         <div class="header">
-            
             <h1>Cyber Segurança - ADS</h1>
         </div>
-        <!--Primeiro CARD-->
+
+        <nav class="menu-principal">
+            <a href="index.html">Início</a>
+            <a href="dicas.html">Dicas de Segurança</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+
         <div class="container">
-            <div class="card">
-                <div class="card-header">
-                  <i class="fas fa-shield-alt"></i>
-                  <h3>Proteção de Dados</h3>
+
+            <a href="protecao-dados.html" class="card-link">
+                <div class="card">
+                    <div class="card-header">
+                      <i class="fas fa-shield-alt"></i>
+                      <h3>Proteção de Dados</h3>
+                    </div>
+                    <p>Políticas e técnicas para manter dados confidenciais seguros contra acessos não autorizados.</p>
+                    <span class="ver-mais">Ver Detalhes &rarr;</span>
                 </div>
-                <p>Políticas para manter dados confidenciais seguros.</p>
-                <button class="btn" onclick="mostrarMais(this)">Saiba Mais</button>
-                <div class="mais-info">
-                    <p>Medidas para garantir a segurança, privacidade e disponibilidade das informações, inclui criptografia, controle de acesso, backup em nuvem e compliance com a LGPD.</p>
-                  </div>
-              </div>
-        <!--Segundo card-->      
+            </a>
+    
+            <a href="prevencao-ataques.html" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <i class="fas fa-lock"></i>
                   <h3>Prevenção de Ataques</h3>
                 </div>
-                <p>Utilização de firewalls e antivírus para evitar invasões e vazamentos.</p>
-                <button class="btn" onclick="mostrarMais(this)">Saiba Mais</button>
-                <div class="mais-info">
-                    <p>Firewalls, antivírus, detecção de intrusos e testes de penetração ajudam a bloquear ataques.</p>
-                  </div>
+                <p>Utilização de firewalls, antivírus e outras barreiras para evitar invasões e vazamentos de dados.</p>
+                <span class="ver-mais">Ver Detalhes &rarr;</span>
               </div>
-        <!--Terceiro Card-->      
+            </a>
+    
+            <a href="boas-praticas.html" class="card-link">
               <div class="card">
                 <div class="card-header">
                   <i class="fas fa-user-shield"></i>
                   <h3>Boas Práticas</h3>
                 </div>
-                <p>Comportamentos que fortalecem a segurança digital.</p>
-                <button class="btn" onclick="mostrarMais(this)">Saiba Mais</button>
-                <div class="mais-info">
-                    <p>Adotar hábitos como criar senhas fortes e únicas, manter softwares atualizados, usar VPNs, evitar cliques em links suspeitos e usar autenticação de dois fatores.  </p>
-                  </div>
+                <p>Comportamentos e hábitos diários que fortalecem a sua segurança e de sua organização.</p>
+                <span class="ver-mais">Ver Detalhes &rarr;</span>
               </div>
-            <div class="card">
-                <div class="card-header">
-                <i class="fas fa-shield-alt"></i>
-                <h3>Cibersegurança</h3>
+            </a>
+
+            <a href="ciberseguranca-geral.html" class="card-link">
+                <div class="card">
+                    <div class="card-header">
+                    <i class="fas fa-globe"></i>
+                    <h3>O que é Cibersegurança?</h3>
+                    </div>
+                    <p>Práticas e políticas que atuam na prevenção de ataques ou na mitigação de seu impacto.</p>
+                    <span class="ver-mais">Ver Detalhes &rarr;</span>
                 </div>
-                <p>Práticas e políticas que atuem na prevenção de ataques cibernéticos ou na mitigação do seu impacto. </p>
-                <button class="btn" onclick="mostrarMais(this)">Saiba Mais</button>
-                <div class="mais-info">
-                    <p>Tem como objetivo proteger sistemas de computador, aplicações, dispositivos, dados, ativos financeiros e pessoas contra ransomwares e outros malwares, golpes de phishing, roubo de dados.</p>
-                  </div>
-            </div>
+            </a>
             
-           
-        </div>
-        <footer>
+        </div> <footer>
             Trabalho Academico - ADS 2025
             <button class="btnFooter" onclick="mostrarMaisAlunos(this)">Info Alunos</button> 
             <div class="mais-info-alunos">
@@ -73,10 +76,10 @@
                     Vitor Augusto Barros : 60009468<br>
                     Guilherme Duquesne : 60005581
                 </p>
-              </div>                    
+            </div>                    
         </footer>
-        <script src="script.js"></script>
 
+        <script src="script.js"></script>
 
     </body>
 </html>
